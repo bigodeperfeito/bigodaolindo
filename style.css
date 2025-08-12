@@ -16,5 +16,10 @@ section{
 }
 
 .curintia{
-    border-style: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 20px ;
 }
