@@ -5,5 +5,8 @@ h1{
     display: inline-block;
     text-align: center;
     padding: 5px 20px ;
-    margin: auto;
+}
+
+section{
+    text-align: center;
 }
