@@ -20,7 +20,7 @@ section{
     width: 90%;
     text-align: center;
     padding: 5px 20px ;
-    height: 200px;
+    height: 100px;
 }
 
 .curintia{
@@ -30,7 +30,7 @@ section{
     display: inline-block;
     text-align: center;
     padding: 5px 20px ;
-    height: 200px;
+    height: 100px;
 }
 
 .no{
@@ -41,5 +41,5 @@ section{
     width: 90%;
     text-align: center;
     padding: 5px 20px ;
-    height: 200px;
+    height: 100px;
 }
