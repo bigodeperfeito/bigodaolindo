@@ -1,7 +1,4 @@
 
-Postada por NICOLAS JUNIOR SILVERIO RODRIGUES
-NICOLAS JUNIOR SILVERIO RODRIGUES
-Criado em: 09:3309:33
 * {
 margin: 0;
 padding: 0;
@@ -87,8 +84,8 @@ body {
 }
 
 .imagem img {
-  max-width: 1100px;
-  height: 750px;
+  max-width: 700px;
+  height: 700px;
   border-radius: 8px;
 }
 
