@@ -1,45 +1,154 @@
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid black;
-    border-radius: 5px;
-    display: inline-block;
-    text-align: center;
-    padding: 5px 20px ;
+
+Postada por NICOLAS JUNIOR SILVERIO RODRIGUES
+NICOLAS JUNIOR SILVERIO RODRIGUES
+Criado em: 09:3309:33
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
-section{
-    text-align: center;
+body {
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+line-height: 2.0;
+background-color: #242424;
+padding: 20px;
 }
 
-.olk{
-    text-align: left;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid black;
-    border-radius: 5px;
-    display: inline-block;
-    width: 90%;
-    text-align: center;
-    padding: 5px 20px ;
-    height: 100px;
+.descricao {
+text-align: center;
+color: white;
+margin-bottom: 2em;
 }
 
-.curintia{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid black;
-    border-radius: 5px;
-    display: inline-block;
-    text-align: center;
-    padding: 5px 20px ;
-    height: 100px;
+.secao {
+max-width: 1200px;
+margin: 0 auto;
+box-shadow: 0 0 70px rgb(184, 209, 255);
+border-radius: 9px;
+display: flex;* {  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.no{
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid black;
-    border-radius: 5px;
-    display: inline-block;
-    width: 90%;
-    text-align: center;
-    padding: 5px 20px ;
-    height: 100px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  line-height: 2.0;
+  background-color: #242424;
+  padding: 20px;
+}
+
+.descricao {
+  text-align: center;
+  color: white;
+  margin-bottom: 2em;
+}
+
+.secao {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 70px rgb(184, 209, 255);
+  border-radius: 9px;
+  display: flex;
+  background-color: #4b6875;
+  padding: 10px;
+}
+
+.texto {
+  flex: 1;
+  padding-right: 20px;
+  padding-left: 2em;
+  align-self: center;
+}
+
+.texto2{
+  flex: 1;
+  align-self: center;
+}
+
+.texto h2 {
+  line-height: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.texto p {
+  line-height: 2em;
+  margin-bottom: 1em;
+  font-size: 18px;
+}
+
+.imagem {
+  flex: 1;
+  text-align: center;
+  align-self: center;
+}
+
+.imagem img {
+  max-width: 1100px;
+  height: 750px;
+  border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+  .secao {
+    flex-direction: column;
+  }
+
+  .texto,
+  .imagem {
+    padding: 10px;
+  }
+}
+background-color: #4b6875;
+padding: 10px;
+}
+
+.texto {
+flex: 1;
+padding-right: 20px;
+padding-left: 2em;
+align-self: center;
+}
+
+.texto2{
+flex: 1;
+align-self: center;
+}
+
+.texto h2 {
+line-height: 2em;
+margin-bottom: 1em;
+text-align: center;
+}
+
+.texto p {
+line-height: 2em;
+margin-bottom: 1em;
+font-size: 18px;
+}
+
+.imagem {
+flex: 1;
+text-align: center;
+align-self: center;
+}
+
+.imagem img {
+max-width: 1100px;
+height: 750px;
+border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+.secao {
+flex-direction: column;
+}
+
+.texto,
+.imagem {
+padding: 10px;
+}
 }
